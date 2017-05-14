@@ -1,0 +1,64 @@
+.question h1 {
+	margin: 0 0 10px 0;
+}
+.desc {
+	font-size: 16px;
+	white-space: pre-wrap;
+}
+.editor{
+	margin: 15px 0;
+}
+.editor-header{
+	height: 50px;
+	background: #2f3129;
+}
+.editor-header .lang{
+	color: #fff;
+	line-height: 50px;
+}
+.editor .btn{
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	color: #fff;
+	background: #e74c3c;
+	text-align: center;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.editor .btn:last-child{
+	margin-right: 0;
+}
+.editor .btn:hover{
+	background: #c0392b;
+}
+.editor #code {
+	display: none;
+}
+.editor #output {
+	background: #eee;
+	margin: 15px 0;
+	padding: 15px 0;
+	display: none;
+}
+
+/* text editor */
+.text-area{
+	position: relative;
+	height: 400px;
+	margin-bottom: 15px;
+	z-index: 0;
+}
+#editor-area { 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+}
+/*for removing cursor positioning error*/
+.ace_editor, .ace_editor div{
+    font-family: monospace !important;
+}

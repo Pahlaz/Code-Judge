@@ -1,0 +1,35 @@
+/* Close Button */
+.close-btn{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	position: absolute;
+	display: inline-flex;
+	top: 10px;
+	left: 20px;
+	background: transparent;
+	border: 0;
+	padding: 0;
+}
+.close-btn span, .close-btn span:before, .close-btn span:after{
+	width: 20px;
+	height: 2px;
+	background: #eee;
+	position: absolute;
+}
+.close-btn span{
+	top: calc(50% - 2px);
+	background: none;
+}
+.close-btn span:before{
+	content: '';
+	top: -6px;
+	left: 0;
+	transform: translateY(6px) rotate(45deg);
+}
+.close-btn span:after{
+	content: '';
+	top: 6px;
+	left: 0;
+	transform: translateY(-6px) rotate(-45deg);
+}

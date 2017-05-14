@@ -1,0 +1,15 @@
+09/10/16: 
+	click toggle btn twice and then switch back to laptop or tablet mode "nav bar will not be displayed".
+BUG FIXED! on 6/2/2017
+
+23/11/16:
+	about us page is not set properly for mobile.
+BUG FIXED! on 24/11/16
+
+24/2/17:
+	signup and signin page text overlap problem.
+#BUG FIXED! on 21/04/17
+
+7/4/17
+	pq_form.php, input and output are not shrinking in mobile view.
+	about us section is not responsive.
